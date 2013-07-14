@@ -30,12 +30,12 @@
 
 #include <cstdlib>
 
-#include <websocketpp/frame.hpp>
-#include <websocketpp/utf8_validator.hpp>
-#include <websocketpp/common/network.hpp>
-#include <websocketpp/common/md5.hpp>
+#include "../frame.hpp"
+#include "../utf8_validator.hpp"
+#include "../common/network.hpp"
+#include "../common/md5.hpp"
 
-#include <websocketpp/processors/processor.hpp>
+#include "../processors/processor.hpp"
 
 namespace websocketpp {
 namespace processor {

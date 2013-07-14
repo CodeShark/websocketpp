@@ -30,7 +30,7 @@
 
 #include <iostream>
 
-#include <websocketpp/logger/levels.hpp>
+#include "../logger/levels.hpp"
 
 namespace websocketpp {
 namespace log {

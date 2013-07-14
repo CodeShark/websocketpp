@@ -28,12 +28,12 @@
 #ifndef WEBSOCKETPP_PROCESSOR_EXTENSION_PERMESSAGEDEFLATE_HPP
 #define WEBSOCKETPP_PROCESSOR_EXTENSION_PERMESSAGEDEFLATE_HPP
 
-#include <websocketpp/common/cpp11.hpp>
-#include <websocketpp/common/memory.hpp>
-#include <websocketpp/common/system_error.hpp>
-#include <websocketpp/error.hpp>
+#include "../../common/cpp11.hpp"
+#include "../../common/memory.hpp"
+#include "../../common/system_error.hpp"
+#include "../../error.hpp"
 
-#include <websocketpp/extensions/extension.hpp>
+#include "../../extensions/extension.hpp"
 
 #include "zlib.h"
 

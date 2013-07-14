@@ -30,15 +30,15 @@
 
 #include <cassert>
 
-#include <websocketpp/frame.hpp>
-#include <websocketpp/utf8_validator.hpp>
-#include <websocketpp/common/network.hpp>
-#include <websocketpp/http/constants.hpp>
+#include "../frame.hpp"
+#include "../utf8_validator.hpp"
+#include "../common/network.hpp"
+#include "../http/constants.hpp"
 
-#include <websocketpp/processors/processor.hpp>
+#include "../processors/processor.hpp"
 
-#include <websocketpp/sha1/sha1.hpp>
-#include <websocketpp/base64/base64.hpp>
+#include "../sha1/sha1.hpp"
+#include "../base64/base64.hpp"
 
 #include <string>
 #include <vector>

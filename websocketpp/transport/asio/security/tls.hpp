@@ -28,10 +28,10 @@
 #ifndef WEBSOCKETPP_TRANSPORT_SECURITY_TLS_HPP
 #define WEBSOCKETPP_TRANSPORT_SECURITY_TLS_HPP
 
-#include <websocketpp/transport/asio/security/base.hpp>
-#include <websocketpp/common/connection_hdl.hpp>
-#include <websocketpp/common/functional.hpp>
-#include <websocketpp/common/memory.hpp>
+#include "../../../transport/asio/security/base.hpp"
+#include "../../../common/connection_hdl.hpp"
+#include "../../../common/functional.hpp"
+#include "../../../common/memory.hpp"
 
 #include <boost/asio.hpp>
 #include <boost/asio/ssl.hpp>

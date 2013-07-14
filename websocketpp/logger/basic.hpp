@@ -44,8 +44,8 @@
 #include <iostream>
 #include <iomanip>
 
-#include <websocketpp/common/stdint.hpp>
-#include <websocketpp/logger/levels.hpp>
+#include "../common/stdint.hpp"
+#include "../logger/levels.hpp"
 
 namespace websocketpp {
 namespace log {
